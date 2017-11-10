@@ -1,0 +1,89 @@
+body{
+	background-color: blue;
+	padding: 60px 0 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+/* Potentially tricky: fieldset comes with default styles we must override. */
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.image{
+  display: block;
+  width: auto;
+  height: 35px;
+  margin: 0 auto 30px;
+
+}
+
+.signup legend {
+  width: 100%;
+  line-height: 38px;
+  font-size: 35px;
+  font-weight: 300;
+  color: #565656;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0 auto 45px;
+}
+input[type="email"],
+input[type="password"],
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 3px;
+  background: #fcfcfc;
+  margin: 10px auto 20px;
+  transition: opacity 0.4s;
+}
+form{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px;
+	width: 400px;
+	background-color: white;
+}
+
+.already{
+	margin-right: auto;
+	margin-left: auto;
+}
+button[type="submit"] {
+  height: auto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #15CD72;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  
+}
+
+
+
+.already{
+  text-align: center;
+  color: white;
+  margin: 20px auto;
+  font-weight: 600;
+  border: 0;
+  padding: 0;
+}
+p{
+	text-align: center;
+}

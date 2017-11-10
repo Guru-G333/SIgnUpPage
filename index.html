@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+
+</head>
+<body>
+	<img src="logo.png" alt="Logo" class="image">
+	<form action="/signup" method="post" class="signup">
+		<fieldset >
+			<legend>Sign Up</legend>
+			<label for="e-mail" id="e-mail">E-Mail</label>
+			<input type="email" name="e-mail" id="e-mail" placeholder="foo@bar.com">
+			<label for="pass-word">Password</label>
+			<input type="password" name="pass-word" id="pass-word" placeholder="1234password">
+			<button type="submit">Sign Up</button>
+			<p class="forgot"><a href="/forgot password">Forgot Password?</a></p>
+		</fieldset>
+	</form>
+	<footer class="Already">
+		<p>Already have an account?<a href="/login">Login</a></p>
+	</footer>
+
+</body>
+</html>
